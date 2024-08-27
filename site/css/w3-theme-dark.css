@@ -1,17 +1,17 @@
-.w3-theme-l5 {color:#fff !important; background-color:#030b11 !important}
-.w3-theme-l4 {color:#fff !important; background-color:#0c2f46 !important}
-.w3-theme-l3 {color:#fff !important; background-color:#15527b !important}
-.w3-theme-l2 {color:#fff !important; background-color:#1e75b0 !important}
-.w3-theme-l1 {color:#fff !important; background-color:#3297db !important}
-.w3-theme-d1 {color:#000 !important; background-color:#b6daf2 !important}
-.w3-theme-d2 {color:#000 !important; background-color:#bedef3 !important}
-.w3-theme-d3 {color:#000 !important; background-color:#c6e2f5 !important}
-.w3-theme-d4 {color:#000 !important; background-color:#cee6f6 !important}
-.w3-theme-d5 {color:#000 !important; background-color:#d6eaf8 !important}
+.w3-theme-l5 {color:#fff !important; background-color:#040e08 !important}
+.w3-theme-l4 {color:#fff !important; background-color:#113b22 !important}
+.w3-theme-l3 {color:#fff !important; background-color:#1d683c !important}
+.w3-theme-l2 {color:#fff !important; background-color:#2a9556 !important}
+.w3-theme-l1 {color:#fff !important; background-color:#37c270 !important}
+.w3-theme-d1 {color:#000 !important; background-color:#a6e5c0 !important}
+.w3-theme-d2 {color:#000 !important; background-color:#b0e8c7 !important}
+.w3-theme-d3 {color:#000 !important; background-color:#baebce !important}
+.w3-theme-d4 {color:#000 !important; background-color:#c4eed5 !important}
+.w3-theme-d5 {color:#000 !important; background-color:#cef1dc !important}
 
-.w3-theme-light {color:#fff !important; background-color:#030b11 !important}
-.w3-theme-dark {color:#000 !important; background-color:#d6eaf8 !important}
-.w3-theme-action {color:#000 !important; background-color:#d6eaf8 !important}
+.w3-theme-light {color:#fff !important; background-color:#040e08 !important}
+.w3-theme-dark {color:#000 !important; background-color:#cef1dc !important}
+.w3-theme-action {color:#000 !important; background-color:#cef1dc !important}
 
 .w3-theme {color:#000 !important; background-color:#aaebc5 !important}
 .w3-text-theme {color:#aaebc5 !important}
@@ -26,17 +26,17 @@
 }
 .w3-code {
   color:#fff;
-  background-color:#0c2f46;
+  background-color:#113b22;
 }
 .w3-codespan {
   color:#fff;
-  background-color:#15527b;
+  background-color:#1d683c;
 }
 
 a{color: inherit !important;}
 
 .w3-striped tbody tr:nth-child(even){
-    background-color:#0c2f46
+    background-color:#113b22
 }
 
 .w3-bordered tr{
@@ -44,10 +44,10 @@ a{color: inherit !important;}
 }
 
 .w3-table tbody tr:hover,table li:hover{
-  background-color:#15527b
+  background-color:#1d683c
 }
 
 .search-results article:hover {
-  background-color:#15527b
+  background-color:#1d683c
 }
 

@@ -2,52 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://kubernetescostoptimization.com/</loc>
-         <lastmod>2024-07-26</lastmod>
+         <lastmod>2024-08-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kubernetescostoptimization.com/cloud-discounts/</loc>
-         <lastmod>2024-07-26</lastmod>
+         <lastmod>2024-08-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kubernetescostoptimization.com/cluster-autoscaling/</loc>
-         <lastmod>2024-07-26</lastmod>
+         <lastmod>2024-08-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://kubernetescostoptimization.com/contact-us/</loc>
+         <lastmod>2024-08-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kubernetescostoptimization.com/cost-perf-r9y/</loc>
-         <lastmod>2024-07-26</lastmod>
+         <lastmod>2024-08-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kubernetescostoptimization.com/golden-signals/</loc>
-         <lastmod>2024-07-26</lastmod>
+         <lastmod>2024-08-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kubernetescostoptimization.com/hpa/</loc>
-         <lastmod>2024-07-26</lastmod>
+         <lastmod>2024-08-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kubernetescostoptimization.com/over-under-idle-waste/</loc>
-         <lastmod>2024-07-26</lastmod>
+         <lastmod>2024-08-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kubernetescostoptimization.com/pod-autoscaling/</loc>
-         <lastmod>2024-07-26</lastmod>
+         <lastmod>2024-08-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kubernetescostoptimization.com/resources/</loc>
-         <lastmod>2024-07-26</lastmod>
+         <lastmod>2024-08-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kubernetescostoptimization.com/rightsizing/</loc>
-         <lastmod>2024-07-26</lastmod>
+         <lastmod>2024-08-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://kubernetescostoptimization.com/vpa/</loc>
+         <lastmod>2024-08-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

@@ -1,20 +1,12 @@
-<div class="container">
-  <form action="action_page.php">
+title: Contact Us!
 
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-    <br>
+- Got a question?
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-    <br>
+- Found a mistake?
 
-    
-        <br>
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-        <br>
-    <input type="submit" value="Submit">
+- Would like to contribute a guide?
 
-  </form>
-</div>
+- Let us know in this repository's [discussions](https://github.com/perfectscale-io/k8s-cost-optimization/discussions)
+
+- Or join our [Slack community](https://join.slack.com/t/perfectscalecommunity/shared_invite/zt-1tu9teu9e-Z9tGt4LpNI8tUC3j8obcmQ)
+
