@@ -14,8 +14,11 @@ In cloud native environments (i.e Kubernetes) these resources are highly dynamic
 This automation gives us a lot of power by prividing access to addtional resources when needed (aka just-in-time provisioning). And it also creates undesirable artifacts if not configured correctly such as:
 
 - Wasted resources (when we allocate more than we actually need)
+
 - Reliability issues (when provisioning doesn't work as expected)
+
 - Unexpected costs (when we don't have good control over what and when gets provisioned)
+
 
 ## Resource Allocation in Kubernetes
 
@@ -41,7 +44,54 @@ spec:
         cpu: 1
         memory: 500Mi
 ```
-### Storage Resource Allocation
+
+### Local ephemeral storage
+
+Since v1.25 we can also manage the amount of local epehemeral storage allocated to pods.
+
+"Ephemeral" means that there is no long-term guarantee about durability.
+
+Pods use ephemeral local storage for scratch space, caching, and for logs. The kubelet can provide scratch space to Pods using local ephemeral storage to mount emptyDir volumes into containers.
+
+The kubelet also uses this kind of storage to hold node-level container logs, container images, and the writable layers of running containers.
+
+An example of a pod with ephemeral storage resource defintions:
+
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-app
+spec:
+  containers:
+  - name: app
+    image: perfectscale.io/my-app:v0.2
+    resources:
+      requests:
+        ephemeral-storage: "1Gi"
+      limits:
+        ephemeral-storage: "2Gi"
+    volumeMounts:
+    - name: ephemeral
+      mountPath: "/tmp"
+  - name: log-collector
+    image: perfectscale.io/logger:v0.4a
+    resources:
+      requests:
+        ephemeral-storage: "500Mi"
+      limits:
+        ephemeral-storage: "1Gi"
+    volumeMounts:
+    - name: ephemeral
+      mountPath: "/tmp"
+  volumes:
+    - name: ephemeral
+      emptyDir:
+        sizeLimit: 500Mi
+```
+For more details on managing ephemeral storage read [the official guide](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#local-ephemeral-storage)
+
+### Persistent Storage Resource Allocation
 
 In order to allocate storage Kubernetes allows us to use its PersistentVolume allocation mechanisms in conjunction with one of the multiple supported storage providers (e.g OpenEBS, Portworx, etc.)
 
