@@ -2,7 +2,10 @@ site_name: Kubernetes Cost Optimization
 site_description: The Definitive Guide to Kubernetes Cost Optimization
 site_url: https://kubernetescostoptimization.com
 site_author: PerfectScale
+repo_url: https://github.com/perfectscale-io/k8s-cost-optimization/
+repo_name: k8s-cost-optimization
 copyright: 2024 PerfectScale.io All Rights Reserved
+
 theme: 
   name: risonia
   custom_dir: custom_dir/
@@ -32,13 +35,14 @@ nav:
 
  - Cluster Autoscaling: cluster-autoscaling.md
  - Leveraging Cloud Discounts : cloud-discounts.md
+ - Contact Us: contact-us.md
 
 
 plugins:
     - search: {}
     - color-theme: # optional
         theme_color: '#ABEBC6' # primary color
-        secondary_color: '#AED6F1' # can be a color or scheme
+        secondary_color: '#9de3ba' # can be a color or scheme
         light_text_color: '#000' # black
         dark_text_color: '#fff' # white
       #  extra_css_light: # list of extra CSS for light mode

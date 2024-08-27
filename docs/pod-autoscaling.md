@@ -36,5 +36,5 @@ Horizontal pod autosscaling is enabled by the following add-ons:
 
 *(Follow the links for autoscaling optimization recommendations)*
 
-- VPA
-- Goldilocks
+- [VPA](../vpa)
+- [Goldilocks](../goldilocks)
