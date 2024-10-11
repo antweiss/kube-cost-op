@@ -54,3 +54,7 @@ plugins:
         #     secondary_color: 'complementary'
 
     - w3css-classes: {} # mandatory
+
+extra:
+  analytics:
+    provider: custom
